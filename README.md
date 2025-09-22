@@ -1,90 +1,108 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Styles Kibao 🌍✨
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+*A vibrant and modern multi-page website for a fashion styling brand.*
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## 📌 Overview
 
-Before you write any code, take time to plan:
+**Styles Kibao** is a colorful and stylish website built using **HTML, CSS, and JavaScript**. It is designed for a fashion stylist brand to showcase services, display a gallery of looks, and allow clients to connect easily.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+The website is **responsive** (works on desktop, tablet, and mobile), visually engaging, and functional with interactive elements like a **lightbox gallery, smooth scrolling, mobile navigation toggle, and contact form validation**.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 🗂️ Project Structure
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
-
----
-
-## 🛠️🚀 Part 3: Best Practices for Code Organization
-
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+```
+Styles-Kibao/
+│
+├── index.html        # Homepage
+├── about.html        # About Us page
+├── services.html     # Services page
+├── gallery.html      # Gallery page
+├── contact.html      # Contact page
+│
+├── styles.css        # Main stylesheet
+├── script.js         # Main JavaScript file
+│
+├── images/           # Folder containing all site images (logo, backgrounds, gallery photos)
+│   ├── gallery1.jpeg ... gallery29.jpeg
+│
+└── README.md         # Documentation (this file)
+```
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## 🌐 Pages
 
-Once your project is complete, choose a method to **host your site online**.
+1. **Home (index.html)**
 
-You can use:
+   * Hero section with a background image.
+   * Catchy tagline: *“Unleashing Confidence, One Look at a Time ✨”*
+   * Navigation bar and footer (shared across all pages).
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+2. **About (about.html)**
 
-Deploy your project and confirm that:
+   * Comprehensive "Who We Are" and "Our Mission" sections.
+   * Image of the stylist/team.
+   * Clean, professional layout.
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+3. **Services (services.html)**
 
-**Goal:** Publish your work online and make it accessible to the world.
+   * 5 main services displayed as **cards**.
+   * Responsive grid: 3 cards on the first row, 2 on the second.
+   * Each card includes a title and short description.
+
+4. **Gallery (gallery.html)**
+
+   * Showcases **29 images** in a **Pinterest-style masonry layout**.
+   * Includes a **lightbox effect**: clicking an image opens it fullscreen.
+
+5. **Contact (contact.html)**
+
+   * Contact form with fields for name, email, and message.
+   * Built-in **JavaScript form validation**.
+   * Footer with copyright.
 
 ---
 
-## Deliverables
+## 🎨 Features
 
-1. A GitHub repository containing:
+* **Responsive Design:** Works seamlessly on mobile, tablet, and desktop.
+* **Navigation Bar:** Consistent across all pages with active link highlighting.
+* **Sticky Footer:** Always stays at the bottom, even on short pages.
+* **Service Cards:** Interactive hover effects for styling services.
+* **Gallery:** Masonry layout (like Pinterest) + lightbox for fullscreen viewing.
+* **JavaScript Enhancements:**
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+  * Mobile menu toggle.
+  * Smooth scrolling.
+  * Gallery lightbox.
+  * Contact form validation.
 
 ---
 
-## Outcome
+## ⚙️ Technologies Used
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+* **HTML5** → Structure
+* **CSS3 (Flexbox & Grid)** → Styling and responsiveness
+* **JavaScript (Vanilla)** → Interactivity and form validation
+* **Git/GitHub** → Version control and collaboration
+
+---
+
+## 📧 Contact
+
+If you’d like to learn more about this project or the styling brand, feel free to connect!
+
+* **Brand:** Styles Kibao
+* **Tagline:** *Unleashing Confidence, One Look at a Time ✨*
+* **Developer:** \[TRAICY AKINYI]
+* **Email:** (akinyitraicy105@gmail.com)
+
+---
+
+## 📄 License
+
+This project is created for educational purposes and for the branding of **Styles Kibao**. Free to use and adapt with attribution.
